@@ -1,0 +1,55 @@
+In India, investing in renewable energy (solar or wind) depends on government subsidies, electricity tariffs, and local conditions. Your Java-based ROI calculator should consider the following factors:
+
+Key Factors for ROI Calculation in India
+1. Initial Investment Cost
+Solar Panels Cost: ₹40,000–₹60,000 per kW (residential); ₹30,000–₹50,000 per kW (commercial)
+Wind Turbine Cost: ₹6–₹7 crores per MW (larger scale)
+2. Government Incentives & Subsidies
+Solar Subsidies:
+30-40% subsidy for residential solar (PM-KUSUM, State DISCOM schemes)
+Net Metering Policy: Sell excess electricity to the grid
+Wind Incentives:
+Accelerated Depreciation (AD) – 40% tax benefit
+Generation-Based Incentive (GBI) for grid-connected wind farms
+3. Expected Energy Output
+Solar: 4–6 kWh/day per kW installed (depends on location, sunlight hours)
+Wind: 20-30% Capacity Factor (actual vs. theoretical output)
+4. Electricity Tariff Savings
+Commercial Electricity Rate: ₹6-₹10 per kWh
+Residential Electricity Rate: ₹4-₹8 per kWh
+Selling to Grid (Net Metering Feed-in Tariff): ₹3-₹5 per kWh
+5. Payback Period & ROI Calculation
+ROI Formula:
+Payback Period
+=
+Initial Investment
+−
+Subsidy
+Annual Savings
++
+Grid Revenue
+Payback Period= 
+Annual Savings+Grid Revenue/Initial Investment−Subsidy
+​
+ 
+Expected payback period for solar: 4-6 years
+Expected payback period for wind: 8-12 years
+How Your Java ROI Calculator Would Work in India
+🔹 User Inputs:
+
+Type of installation (Solar/Wind)
+System Size (kW or MW)
+Cost per kW/MW
+Government Subsidy (Auto-Fetch Based on Location & Type)
+Local Electricity Tariff & Net Metering Rate
+Sunlight/Wind Availability in the Region
+🔹 Java Program Calculates:
+
+Annual Energy Output
+Annual Savings from Reduced Electricity Bills
+Additional Revenue from Selling to Grid
+Total ROI and Payback Period
+🔹 Output Format (GUI/Table):
+
+Compare Solar vs. Wind side by side
+Show break-even point & long-term profit
