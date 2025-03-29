@@ -17,7 +17,7 @@ public class ROICalculator2 {
                                                 String type, String state, 
                                                 PowerPurchaseAgreement ppa) {
         // Retrieve the real-time subsidy percentage (using your API integration or static lookup)
-        double subsidyPercent = RealTimeSubsidyAPI.getSubsidy(state);
+        double subsidyPercent = StateSubsidyData.getSubsidy(state);
 
         // Calculate annual energy output based on system type
         double annualOutput = type.equalsIgnoreCase("Solar") ? systemSize * 1500 : systemSize * 2500;

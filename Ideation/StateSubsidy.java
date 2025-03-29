@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class StateSubsidy {
+class StateSubsidyData {
     private static final Map<String, Double> subsidyData = new HashMap<>();
 
     static {
@@ -18,11 +18,11 @@ class StateSubsidy {
     }
 }
 
-public class ROICalculator {
+public class StateSubsidy {
     public static double calculatePaybackPeriod(double systemSize, double costPerKW, 
                                                 double tariff, double netMetering, 
                                                 String type, String state) {
-        double subsidyPercent = StateSubsidy.getSubsidy(state);
+        double subsidyPercent = StateSubsidyData.getSubsidy(state);
         double annualOutput = (type.equalsIgnoreCase("Solar")) ? systemSize * 1500 : systemSize * 2500;
         double annualSavings = annualOutput * tariff;
         double revenue = annualOutput * netMetering;
