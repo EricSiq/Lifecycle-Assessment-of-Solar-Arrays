@@ -1,1 +1,16 @@
+What problems are we aiming to solve for the average Indian?
+Assessing the true environmental and economic impact of solar panel installations in India is complex due to varied regional subsidies and sunlight conditions.
+India lacks a dynamic tool for calculating the return on investment (ROI) and environmental footprint of solar panels that accounts for location-specific factors in India.
+We lack the User-Awareness by Indian consumers and businesses in making informed decisions about solar panel installations.
+
+Primary Objectives:
+Develop a robust Java application that accurately calculates the lifecycle assessment of developing and maintaining solar panel installations across India.
+Integrate a database to store and retrieve regional solar subsidy data provided by various local and state governmental bodies, ensuring accurate ROI calculations.
+Create a user-friendly interface that simplifies complex calculations for users with varying technical expertise.
+
+
+Secondary Objectives:
+Enable users to input specific parameters such as panel type, system size, and location to personalize the assessment.
+Ensure the application is scalable and maintainable, allowing for future updates and enhancements.
+Promote awareness and adoption of solar energy in India through an accessible and informative tool focusing on localised data.
 
