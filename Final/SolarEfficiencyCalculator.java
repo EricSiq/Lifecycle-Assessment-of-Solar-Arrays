@@ -30,7 +30,7 @@ public class SolarEfficiencyCalculator {
                     double panelArea = panelData[1];
 
                     if (panelEfficiency <= 0 || panelArea <= 0) {
-                        System.out.println("⚠ No panel data found. Please run SolarCostCalculator first.");
+                        System.out.println("No panel data found. Please run SolarCostCalculator first.");
                         return;
                     }
 
@@ -47,7 +47,7 @@ public class SolarEfficiencyCalculator {
                     System.out.printf("Efficiency Factor (Latitude-based): %.2f\n", efficiencyFactor);
                     System.out.println("========================================\n");
                 } else {
-                    System.out.println("⚠ District not found in database.");
+                    System.out.println("District not found in database.");
                 }
             }
         } catch (SQLException e) {
@@ -76,7 +76,7 @@ public class SolarEfficiencyCalculator {
                 data[1] = rs.getDouble("panel_area");
             }
         } catch (SQLException e) {
-            System.err.println("❌ Error Fetching Panel Data: " + e.getMessage());
+            System.err.println("Error Fetching Panel Data: " + e.getMessage());
             e.printStackTrace();
         }
         return data;
