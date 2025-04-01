@@ -22,7 +22,7 @@ public class PowerPurchaseAgreement {
             } else {
                 while (rs.next()) {
                     System.out.println("State: " + rs.getString("state_name"));
-                    System.out.println("Tariff: $" + rs.getFloat("tariff"));
+                    System.out.println("Tariff: Rs." + rs.getFloat("tariff"));
                     System.out.println("Escalation Rate: " + rs.getFloat("escalation_rate") + "%");
                     System.out.println("Contract Duration: " + rs.getInt("contract_duration") + " years");
                     System.out.println("--------------------------------------");
