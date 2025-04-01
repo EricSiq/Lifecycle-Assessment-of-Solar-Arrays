@@ -1,0 +1,5 @@
+After javac *.java
+java -cp ".;mysql-connector-j-9.2.0.jar" StateSubsidy 
+
+Download Connector/J 9.2.0
+mysql-connector-j-9.2.0 place this file in the same folder as your other Java code files.
