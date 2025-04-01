@@ -51,7 +51,7 @@ public class SolarEfficiencyCalculator {
                 }
             }
         } catch (SQLException e) {
-            System.err.println("❌ Database Error: " + e.getMessage());
+            System.err.println("Database Error: " + e.getMessage());
             e.printStackTrace();
         } finally {
             scanner.close();
