@@ -41,3 +41,8 @@ public class DatabaseHelper {
     public static ResultSet getSolarPanelModels() throws SQLException {
        return executeQuery("SELECT panel_id, brand, model_name, power_output, cost_per_panel, length, width FROM SolarPanelModels");
     }
+
+    public static double getSunlightHours(String state, String district) {
+        String query = "SELECT avg_sunlight_hours_per_day FROM SolarIntensity WHERE state_name = ? AND district_name = ?";
+        return fetchDouble(query, state, district);
+    }
