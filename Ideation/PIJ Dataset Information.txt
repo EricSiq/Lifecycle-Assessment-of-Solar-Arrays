@@ -1,0 +1,470 @@
+PIJ Dataset Information
+
+A comprehensive dataset for each Indian state and union territory (UT) detailing: ​
+State-wise Subsidies
+Tariffs and Net Metering Rates
+System Costs
+Power Purchase Agreement (PPA) Details
+Solar Panel Lifespan
+Degradation Rate
+Maintenance Cost
+
+States:
+1. Andhra Pradesh
+State Subsidy: Up to 40% capital subsidy for solar projects ≤1 MWp. ​
+Net Metering: Allowed for projects ≤1 MWp; cumulative capacity ≤60% of local distribution transformer capacity.
+System Cost: Approximately ₹45,000 per kW (expandable systems). ​
+PPA Details: Exemptions from distribution losses; eligibility for Renewable Energy Certificates (REC); 10-year tax holiday; priority in low-interest loans up to ₹15 crores. ​
+Solar Panel Lifespan: Typically, 25 years. ​
+Degradation Rate: Approximately 0.5% per year. ​
+Maintenance Cost: Varies; generally, ₹1,000–₹2,000 per kW annually. 
+
+2. Arunachal Pradesh
+State Subsidy: Specific subsidy details not available; participation in central subsidy schemes likely. ​ 
+Net Metering: Policies may vary; local DISCOM consultation recommended. ​ 
+System Cost: Approximately ₹50,000 per kW. 
+PPA Details: Subject to state regulations; details not specified. ​
+Solar Panel Lifespan: Typically, 25 years. ​
+Degradation Rate: Approximately 0.5% per year. ​
+Maintenance Cost: Varies; generally, ₹1,000–₹2,000 per kW annually. ​
+
+
+
+3. Assam
+State Subsidy: Specific subsidy details not available; participation in central subsidy schemes likely.
+Net Metering: Settlement rate based on Average Pooled Power Purchase Cost (APPC) at ₹5.33 per unit for FY 2024-25. ​
+System Cost: Approximately ₹50,000 per kW. ​
+PPA Details: Subject to state regulations; details not specified. ​
+Solar Panel Lifespan: Typically, 25 years. ​ 
+Degradation Rate: Approximately 0.5% per year. ​
+Maintenance Cost: Varies; generally, ₹1,000–₹2,000 per kW annually. ​
+
+4. Bihar
+State Subsidy: 70% subsidy against the benchmark cost of ₹75,000 per kW for institutional, residential, and non-profit establishments. ​
+Net Metering: Feed-in tariff of ₹3.11 per unit based on 2022 rates; unadjusted excess energy at the end of the settlement period is not compensated. ​ 
+System Cost: Approximately ₹45,000 per kW after subsidy. ​
+PPA Details: Subject to state regulations; details not specified. ​
+Solar Panel Lifespan: Typically, 25 years. ​
+Degradation Rate: Approximately 0.5% per year. ​
+Maintenance Cost: Varies; generally, ₹1,000–₹2,000 per kW annually. ​
+
+5. Chhattisgarh
+State Subsidy: Specific subsidy details not available; participation in central subsidy schemes likely. ​
+Net Metering: Policies may vary; local DISCOM consultation recommended. ​
+System Cost: Approximately ₹50,000 per kW. ​ 
+PPA Details: Subject to state regulations; details not specified. ​
+Solar Panel Lifespan: Typically, 25 years. ​
+Degradation Rate: Approximately 0.5% per year. ​
+Maintenance Cost: Varies; generally, ₹1,000–₹2,000 per kW annually. ​
+
+
+
+6. Goa
+State Subsidy: Ambitious plans for 40 GW grid-connected rooftop solar and 60 GW additional solar power plants; exploring canal-top solar installations. ​ 
+Net Metering: Policies may vary; local DISCOM consultation recommended. ​
+System Cost: Approximately ₹50,000 per kW. ​
+PPA Details: Subject to state regulations; details not specified. ​
+Solar Panel Lifespan: Typically, 25 years. ​
+Degradation Rate: Approximately 0.5% per year. ​
+Maintenance Cost: Varies; generally, ₹1,000–₹2,000 per kW annually.
+
+7. Gujarat
+State Subsidy:
+Up to 3 kW: ₹20,000 per kW
+3 kW to 10 kW: ₹10,000 per kW
+Net Metering:
+Residential, government, and MSME enterprises receive ₹2.25 per unit for the first five years, followed by 75% of the average tariff for non-park-based solar projects.
+System Cost:
+Approximately ₹1.3 lakhs for a 3-kW system; effective price after subsidy: ₹84,500
+PPA Details:
+Gujarat Urja Vikas Nigam Ltd (GUVNL) offers ₹2.67 per unit for solar power purchase agreements.
+Solar Panel Lifespan: 25 years
+Degradation Rate: 0.5% per year
+Maintenance Cost: ₹1,000–₹2,000 per kW annually
+
+8. Haryana
+State Subsidy:
+40% subsidy for rooftop solar up to 3 kW
+20% for 3-10 kW systems
+Net Metering:
+Excess power is compensated at ₹2 per unit.
+System Cost:
+₹47,500 per kW (before subsidy)
+PPA Details:
+Haryana Renewable Energy Development Agency (HAREDA) facilitates PPAs with DISCOMs at an average rate of ₹2.57 per unit.
+Solar Panel Lifespan: 25 years
+Degradation Rate: 0.5% per year
+Maintenance Cost: ₹1,500–₹2,500 per kW annually
+
+
+9. Himachal Pradesh
+State Subsidy:
+40% subsidy for residential consumers up to 3 kW, 20% for 3-10 kW
+Net Metering:
+Allowed for projects up to 1 MWp
+System Cost:
+₹50,000 per kW
+PPA Details:
+Subject to state regulations; typically, ₹3.0–₹4.0 per unit
+Solar Panel Lifespan: 25 years
+Degradation Rate: 0.5% per year
+Maintenance Cost: ₹1,500 per kW annually
+
+10. Jharkhand
+State Subsidy:
+50% for rooftop solar projects up to 10 kW
+Net Metering:
+Allowed up to 1 MW capacity
+System Cost:
+₹45,000 per kW
+PPA Details:
+Tariffs around ₹3.2–₹4.0 per unit
+Solar Panel Lifespan: 25 years
+Degradation Rate: 0.5% per year
+Maintenance Cost: ₹1,500 per kW annually
+
+11. Karnataka
+State Subsidy:
+No state subsidy, only central financial assistance (CFA)
+Net Metering:
+₹3.07 per unit feed-in tariff
+System Cost:
+₹40,000 per kW
+PPA Details:
+₹2.67 per unit (Karnataka Renewable Energy Development Ltd)
+Solar Panel Lifespan: 25 years
+Degradation Rate: 0.5% per year
+Maintenance Cost: ₹1,500 per kW annually
+
+12. Kerala
+State Subsidy:
+40% for systems up to 3 kW, 20% for 3-10 kW
+Net Metering:
+₹3.99 per unit export compensation
+System Cost:
+₹48,000 per kW
+PPA Details:
+Tariff of ₹2.83 per unit
+Solar Panel Lifespan: 25 years
+Degradation Rate: 0.5% per year
+Maintenance Cost: ₹1,500 per kW annually
+
+13. Madhya Pradesh
+State Subsidy:
+No state-specific subsidy, only central financial assistance (CFA)
+Net Metering:
+Allowed for projects up to 1 MWp
+System Cost:
+₹45,000 per kW
+PPA Details:
+Tariff rates around ₹2.60 per unit
+Solar Panel Lifespan: 25 years
+Degradation Rate: 0.5% per year
+Maintenance Cost: ₹1,500 per kW annually
+
+14. Maharashtra
+State Subsidy:
+30% capital subsidy for rooftop solar
+Net Metering:
+₹3.5 per unit feed-in tariff
+System Cost:
+₹40,000 per kW
+PPA Details:
+₹2.75 per unit (Maharashtra State Electricity Distribution Company Limited)
+Solar Panel Lifespan: 25 years
+Degradation Rate: 0.5% per year
+Maintenance Cost: ₹1,500 per kW annually
+
+15. Manipur
+State Subsidy:
+40% subsidy for rooftop solar up to 3 kW, 20% for 3-10 kW.
+Net Metering:
+Allowed for projects up to 1 MWp.
+System Cost:
+₹48,000 per kW before subsidy.
+PPA Details:
+Feed-in tariff ranges from ₹3.50–₹4.00 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500–₹2,000 per kW annually.
+
+16. Meghalaya
+State Subsidy:
+40% subsidy for residential rooftop solar up to 3 kW, 20% for 3-10 kW.
+Net Metering:
+Allowed under Meghalaya State Electricity Regulatory Commission (MSERC).
+System Cost:
+₹50,000 per kW.
+PPA Details:
+Tariff typically around ₹3.50 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+17. Mizoram
+State Subsidy:
+40% subsidy for rooftop solar systems.
+Net Metering:
+Allowed for projects up to 1 MWp.
+System Cost:
+₹47,000 per kW.
+PPA Details:
+Tariff of ₹3.80 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+
+
+18. Nagaland
+State Subsidy:
+40% subsidy for rooftop solar installations.
+Net Metering:
+Allowed for consumers generating solar power.
+System Cost:
+₹50,000 per kW.
+PPA Details:
+Tariff typically around ₹3.75 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+19. Odisha
+State Subsidy:
+No state-specific subsidy; only central subsidy available.
+Net Metering:
+₹3.50 per unit for excess energy exported.
+System Cost:
+₹45,000 per kW.
+PPA Details:
+Tariff typically ₹2.95 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+20. Punjab
+State Subsidy:
+40% subsidy for rooftop solar up to 3 kW, 20% for 3-10 kW.
+Net Metering:
+Allowed for consumers exporting power to the grid.
+System Cost:
+₹46,000 per kW.
+PPA Details:
+Tariff around ₹2.89 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+21. Rajasthan
+State Subsidy:
+40% for systems up to 3 kW, 20% for 3-10 kW.
+Net Metering:
+₹3.14 per unit feed-in tariff.
+System Cost:
+₹42,000 per kW.
+PPA Details:
+₹2.67 per unit (Rajasthan Renewable Energy Corporation Ltd).
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+22. Sikkim
+State Subsidy:
+40% subsidy for residential rooftop solar.
+Net Metering:
+Allowed for projects up to 1 MWp.
+System Cost:
+₹50,000 per kW.
+PPA Details:
+Tariff around ₹3.50 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+
+
+23. Tamil Nadu
+State Subsidy:
+No state subsidy, only central financial assistance.
+Net Metering:
+₹3.10 per unit feed-in tariff.
+System Cost:
+₹40,000 per kW.
+PPA Details:
+₹2.61 per unit (Tamil Nadu Generation and Distribution Corporation).
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+24. Telangana
+State Subsidy:
+No state-specific subsidy, only CFA.
+Net Metering:
+₹3.15 per unit for excess power exported.
+System Cost:
+₹42,000 per kW.
+PPA Details:
+₹2.80 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+25. Tripura
+State Subsidy:
+40% subsidy for residential solar projects.
+Net Metering:
+Allowed for projects up to 1 MWp.
+System Cost:
+₹48,000 per kW.
+PPA Details:
+Tariff of ₹3.80 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+26. Uttarakhand
+State Subsidy:
+40% for up to 3 kW, 20% for 3-10 kW.
+Net Metering:
+₹3.25 per unit for excess energy exported.
+System Cost:
+₹45,000 per kW.
+PPA Details:
+Tariff around ₹2.95 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+Union Territories
+1. Andaman & Nicobar Islands
+State Subsidy:
+40% subsidy for residential solar up to 3 kW, 20% for 3-10 kW.
+Net Metering:
+Allowed for projects up to 1 MWp.
+System Cost:
+₹55,000 per kW.
+PPA Details:
+Tariff of ₹4.50 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹2,000 per kW annually.
+
+2. Chandigarh
+State Subsidy:
+40% subsidy for rooftop solar up to 3 kW, 20% for 3-10 kW.
+Net Metering:
+₹3.25 per unit for excess energy exported.
+System Cost:
+₹50,000 per kW.
+PPA Details:
+Tariff of ₹3.00 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+3. Dadra & Nagar Haveli and Daman & Diu
+State Subsidy:
+No additional state subsidy; only central subsidy applicable.
+Net Metering:
+₹3.00 per unit for excess power exported.
+System Cost:
+₹48,000 per kW.
+PPA Details:
+Tariff of ₹3.10 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+
+
+4. Lakshadweep
+State Subsidy:
+40% subsidy for rooftop solar.
+Net Metering:
+₹4.00 per unit for exported power.
+System Cost:
+₹60,000 per kW.
+PPA Details:
+Tariff of ₹4.50 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹2,000 per kW annually.
+
+5. Delhi
+State Subsidy:
+40% subsidy for rooftop solar up to 3 kW, 20% for 3-10 kW.
+Net Metering:
+₹3.50 per unit for exported power.
+System Cost:
+₹45,000 per kW.
+PPA Details:
+Tariff of ₹2.75 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+6. Puducherry
+State Subsidy:
+No state-specific subsidy, only central CFA available.
+Net Metering:
+₹3.25 per unit for exported power.
+System Cost:
+₹48,000 per kW.
+PPA Details:
+Tariff of ₹3.20 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+7. Jammu & Kashmir
+State Subsidy:
+70% subsidy for domestic consumers under the Solar Rooftop Program.
+Net Metering:
+₹3.50 per unit feed-in tariff.
+System Cost:
+₹45,000 per kW before subsidy.
+PPA Details:
+Tariff of ₹3.00 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹1,500 per kW annually.
+
+8. Ladakh
+State Subsidy:
+70% subsidy under Ladakh Renewable Energy Development Agency.
+Net Metering:
+₹3.50 per unit feed-in tariff.
+System Cost:
+₹50,000 per kW before subsidy.
+PPA Details:
+Tariff of ₹3.20 per unit.
+Solar Panel Lifespan: 25 years.
+Degradation Rate: 0.5% per year.
+Maintenance Cost: ₹2,000 per kW annually
+Regions with no comprehensive data:
+Arunachal Pradesh
+Nagaland (some missing PPA details)
+Lakshadweep (only limited net metering details available)
+
+References:
+State-Wise Renewable Energy Settlement Rates In India: A Comparative Analysis - Report - SolarQuarter
+Statewise Rooftop Solar Policies in India- MYSUN (itsmysun.com)
+https://prefuelenergy.com/solar-panel-prices-in-india-with-subsidy/
+https://waaree.com/wp-content/uploads/2024/10/13.Final-Report_Solar-Power-Market-in-India_Part-2.pdf
+https://www.ceew.in/sites/default/files/rooftop-solar-deployment.pdf
+https://www.cif.org/sites/cif_enc/files/rooftop_solar_pv_in_india_ctf_pwc._v8pdf_0.pdf
+https://ieefa.org/sites/default/files/2022-10/Indian%20Residential%20Rooftops-%20A%20vast%20Trove%20of%20Solar%20Energy%20Potential_Oct2022.pdf
+https://doi.org/10.1016/j.csite.2021.101010
+https://climatepolicyinitiative.org/wp-content/uploads/2018/02/Scaling-up-Rooftop-Solar-Power-in-India-The-Potential-of-Solar-Municipal-Bonds.pdf
+https://pmsg-production-public.s3.ap-south-1.amazonaws.com/download/7_NPTI_Discom_Employees_English.pdf
+https://www.reuters.com/business/energy/skills-shortage-hobbles-indias-clean-energy-aspirations-2024-11-20/
+https://en.wikipedia.org/wiki/Net_metering
+https://en.wikipedia.org/wiki/Solar_power_in_India
+https://distributedenergy.medium.com/indias-state-wise-solar-energy-policies-b99799852664
+chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cea.nic.in/wp-content/uploads/notification/2024/02/RE_RTC_Final_Report.pdf?.com
+https://powermin.gov.in/en/content/guidelines-inviting-tariff-based-bids?
+https://vantedgeplus.com/perspectives/ppa-renewable-trends-india/
+https://indiaenergyinsights.wordpress.com/2021/03/05/all-india-and-state-wise-average-power-purchase-cost/
+https://www.cercind.gov.in/Current_reg.html
+https://powermin.gov.in/en/content/important-orders-guidelines-notifications-reports 
+https://merc.gov.in/ 
+
