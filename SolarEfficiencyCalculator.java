@@ -58,5 +58,23 @@ double sunIntensity = rs.getDouble("avg_annual_solar_radiation");
         private static double[] getLatestPanelData() {
             double[] data = {0, 0};  // Default values if no data is found
             String query = "SELECT panel_efficiency, panel_area FROM UserSelectedPanel ORDER BY timestamp DESC LIMIT 1";
+//Eroc
+            
 
+
+//Eric
+    // Function to check if the latitude is within the allowed range for India
+    private static void checkLatitudeRange(double latitude) throws LatitudeOutOfRange {
+        if (latitude < 6 || latitude > 40) {
+            throw new LatitudeOutOfRange("Latitude out of range! The latitude should be between 6 and 40 for India.");
+        }
+    }
+
+    // Function to check if the longitude is within the allowed range for India
+    private static void checkLongitudeRange(double longitude) throws LongitudeOutOfRange {
+        if (longitude < 65 || longitude > 100) {
+            throw new LongitudeOutOfRange("Longitude out of range! The longitude should be between 65 and 100 for India.");
+        }
+    }
+}
 
