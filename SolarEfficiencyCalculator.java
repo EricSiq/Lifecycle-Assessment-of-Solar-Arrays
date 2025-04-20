@@ -12,6 +12,14 @@ public class SolarEfficiencyCalculator {
         String districtName = scanner.nextLine().trim();
                     //Eric
 
+                    // Check if the latitude and longitude are within valid ranges
+                    try {
+                        checkLatitudeRange(latitude);
+                        checkLongitudeRange(longitude);
+                    } catch (LatitudeOutOfRange | LongitudeOutOfRange e) {
+                        System.out.println(e.getMessage());
+                        return; // Exit if latitude/longitude is out of range
+                    }
         
         //Eric
                     double sunIntensity = rs.getDouble("avg_annual_solar_radiation");
@@ -60,6 +68,12 @@ public class SolarEfficiencyCalculator {
 //Eroc
             
 
+        } catch (SQLException e) {
+            System.err.println("Error Fetching Panel Data: " + e.getMessage());
+            e.printStackTrace();
+        }
+        return data;
+    }
 
 //Eric
     // Function to check if the latitude is within the allowed range for India
