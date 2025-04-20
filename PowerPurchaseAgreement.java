@@ -27,7 +27,6 @@ public class PowerPurchaseAgreement {
             return; // stop execution if invalid
         }
 
-//Eric
         // Create a Runnable task for threading
         Runnable fetchPPAData = () -> {
             try (Connection conn = DatabaseHelper.getConnection();
@@ -45,7 +44,6 @@ public class PowerPurchaseAgreement {
                     return;
                 }
 
-        //Eric
                 while (rs.next()) {
                     System.out.println("\nState: " + rs.getString("state_name"));
                     System.out.println("Tariff: $" + rs.getFloat("tariff"));
@@ -69,7 +67,7 @@ public class PowerPurchaseAgreement {
         } catch (InterruptedException e) {
             System.err.println("Thread interrupted: " + e.getMessage());
         }
-    }//Eric
+    }
     
 // Validate against known states
     private static void validateState(String state) throws InvalidStateException {
