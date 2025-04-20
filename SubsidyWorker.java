@@ -43,3 +43,8 @@ public class SubsidyWorker extends Thread {
                 System.out.println("No valid subsidy information found for the entered state or the subsidy percentage is outside the range of 15% to 50%.");
             }
 
+        } catch (SQLException | InvalidStateException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
+}
