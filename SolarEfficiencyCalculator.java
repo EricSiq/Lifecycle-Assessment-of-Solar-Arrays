@@ -43,5 +43,20 @@ double sunIntensity = rs.getDouble("avg_annual_solar_radiation");
                         System.out.println("District not found in database.");
                     }
                 }
+//Eric
+
+
+
+//Eric
+
+        // Function to adjust efficiency based on latitude
+        private static double calculateEfficiencyFactor(double latitude) {
+            return Math.cos(Math.toRadians(latitude - 23.5)) * 0.9 + 0.1; // Adjusted for better accuracy
+        }
+
+        // Retrieves latest panel efficiency & area from the database
+        private static double[] getLatestPanelData() {
+            double[] data = {0, 0};  // Default values if no data is found
+            String query = "SELECT panel_efficiency, panel_area FROM UserSelectedPanel ORDER BY timestamp DESC LIMIT 1";
 
 
