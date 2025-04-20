@@ -1,0 +1,57 @@
+state_name,district_name,latitude,longitude,avg_annual_solar_radiation,avg_sunlight_hours_per_day
+Maharashtra,Pune,18.5204,73.8567,5.21,8.5
+Rajasthan,Jaipur,26.9124,75.7873,5.89,9.2
+Tamil Nadu,Chennai,13.0827,80.2707,5.32,8.8
+Karnataka,Bengaluru,12.9716,77.5946,5.01,7.9
+Gujarat,Ahmedabad,23.0225,72.5714,5.74,9.0
+Madhya Pradesh,Bhopal,23.2599,77.4126,5.41,8.6
+Telangana,Hyderabad,17.385,78.4867,5.15,8.3
+Uttar Pradesh,Lucknow,26.8467,80.9462,5.02,7.8
+West Bengal,Kolkata,22.5726,88.3639,4.88,7.5
+Delhi,New Delhi,28.6139,77.209,5.11,8.2
+Maharashtra,Mumbai,19.0760,72.8777,5.10,8.3
+Maharashtra,Nagpur,21.1458,79.0882,5.09,8.6
+Odisha,Bhubaneswar,20.2961,85.8245,5.12,8.3
+Punjab,Amritsar,31.6340,74.8723,5.10,8.2
+Assam,Guwahati,26.1445,91.7362,4.90,7.5
+Kerala,Thiruvananthapuram,8.5241,76.9366,4.80,7.2
+Kerala,Kochi,9.9312,76.2673,4.78,7.1
+Goa,Panaji,15.4909,73.8278,5.00,7.8
+Andhra Pradesh,Vijayawada,16.5062,80.6480,5.20,8.4
+Haryana,Chandigarh,30.7333,76.7794,5.00,8.0
+Bihar,Patna,25.5941,85.1376,4.95,7.6
+Jharkhand,Ranchi,23.3441,85.3096,5.00,7.7
+Chhattisgarh,Raipur,21.2514,81.6296,5.10,8.2
+Uttarakhand,Dehradun,30.3165,78.0322,4.85,7.3
+Himachal Pradesh,Shimla,31.1048,77.1734,4.70,7.0
+Jammu and Kashmir,Srinagar,34.0837,74.7973,4.65,6.8
+Tripura,Agartala,23.8315,91.2868,4.80,7.1
+Manipur,Imphal,24.8170,93.9368,4.75,7.0
+Meghalaya,Shillong,25.5788,91.8933,4.60,6.9
+Mizoram,Aizawl,23.7271,92.7176,4.65,6.8
+Nagaland,Kohima,25.6751,94.1086,4.70,6.9
+Arunachal Pradesh,Itanagar,27.0844,93.6053,4.55,6.7
+Sikkim,Gangtok,27.3389,88.6065,4.50,6.6
+Ladakh,Leh,34.1526,77.5770,5.00,8.0
+Andaman and Nicobar Islands,Port Blair,11.6234,92.7265,4.70,7.0
+Lakshadweep,Kavaratti,10.5667,72.6417,4.75,7.1
+Madhya Pradesh,Indore,22.7196,75.8577,5.38,8.5
+Uttar Pradesh,Varanasi,25.3176,82.9739,4.90,7.6
+Gujarat,Surat,21.1702,72.8311,5.25,8.5
+Punjab,Ludhiana,30.9000,75.8573,5.05,8.1
+West Bengal,Asansol,23.6739,86.9524,4.80,7.4
+Karnataka,Mysuru,12.2958,76.6394,5.00,7.9
+Andhra Pradesh,Visakhapatnam,17.6868,83.2185,5.23,8.4
+Haryana,Faridabad,28.4089,77.3178,5.08,8.1
+Chhattisgarh,Bhilai,21.1938,81.3509,5.11,8.2
+Odisha,Cuttack,20.4625,85.8828,5.10,8.3
+Jharkhand,Jamshedpur,22.8046,86.2029,5.00,7.7
+Rajasthan,Kota,25.2138,75.8648,5.85,9.1
+Tamil Nadu,Coimbatore,11.0168,76.9558,5.30,8.7
+Delhi,North Delhi,28.8000,77.2000,5.10,8.2
+Maharashtra,Aurangabad,19.8762,75.3433,5.20,8.4
+Gujarat,Vadodara,22.3072,73.1812,5.35,8.6
+Uttar Pradesh,Kanpur,26.4499,80.3319,5.00,7.7
+Rajasthan,Udaipur,24.5854,73.7125,5.80,9.0
+Telangana,Warangal,17.9784,79.5941,5.12,8.2
+Kerala,Kozhikode,11.2588,75.7804,4.76,7.1
