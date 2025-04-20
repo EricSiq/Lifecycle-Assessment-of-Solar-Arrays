@@ -148,7 +148,7 @@ INSERT INTO PowerPurchaseAgreements (state_id, tariff, escalation_rate, contract
 (3, 7.8, 2.9, 20),
 (4, 8.1, 3.1, 20),
 (5, 7.9, 3.0, 20),
-(6, NULL, NULL, NULL),
+(6, 7.8, 3.0, 20),
 (7, 7.9, 3.0, 20),
 (8, 8.0, 3.2, 20),
 (9, 7.7, 2.8, 20),
@@ -157,28 +157,28 @@ INSERT INTO PowerPurchaseAgreements (state_id, tariff, escalation_rate, contract
 (12, 7.9, 3.1, 20),
 (13, 8.0, 3.0, 20),
 (14, 8.0, 3.0, 20),
-(15, NULL, NULL, NULL),
-(16, NULL, NULL, NULL),
-(17, NULL, NULL, NULL),
-(18, NULL, NULL, NULL),
+(15, 8.1, 3.1, 20),
+(16, 8.0, 3.0, 20),
+(17, 8.2, 3.2, 20),
+(18, 8.1, 3.1, 20),
 (19, 8.1, 3.1, 20),
 (20, 7.8, 2.9, 20),
 (21, 7.7, 2.8, 20),
-(22, NULL, NULL, NULL),
+(22, 7.9, 3.0, 20),
 (23, 8.1, 3.2, 20),
 (24, 8.0, 3.0, 20),
-(25, NULL, NULL, NULL),
+(25, 8.0, 3.0, 20),
 (26, 8.2, 3.3, 20),
 (27, 8.0, 3.1, 20),
 (28, 7.9, 3.0, 20),
-(29, NULL, NULL, NULL),
-(30, NULL, NULL, NULL),
-(31, NULL, NULL, NULL),
-(32, NULL, NULL, NULL),
-(33, NULL, NULL, NULL),
-(34, NULL, NULL, NULL),
-(35, NULL, NULL, NULL),
-(36, NULL, NULL, NULL);
+(29, 7.8, 2.9, 20),
+(30, 7.9, 3.0, 20),
+(31, 7.8, 2.9, 20),
+(32, 8.0, 3.0, 20),
+(33, 8.1, 3.1, 20),
+(34, 8.0, 3.0, 20),
+(35, 7.9, 3.0, 20),
+(36, 8.2, 3.2, 20);
 
 INSERT INTO SolarPanelData (state_id, panel_lifespan, degradation_rate, maintenance_cost) VALUES
 (1, 25, 0.5, 2000),
@@ -231,9 +231,7 @@ INSERT INTO SolarPanelModels (brand, model_name, cost_per_panel, length, width, 
 ('Microtek', 'MTK330W', 15500, 1.94, 0.98, 0.33);
 
 
-SELECT * FROM information_schema.columns 
-WHERE table_name = 'SolarPanelModels' 
-AND column_name = 'cost_per_panel';
+
 
 
 
