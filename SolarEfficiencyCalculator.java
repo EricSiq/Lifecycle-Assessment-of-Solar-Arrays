@@ -44,3 +44,18 @@ public class SolarEfficiencyCalculator {
                         System.out.println("No panel data found. Please run SolarCostCalculator first.");
                         return;
                     }
+                     // Calculate efficiency
+                    double efficiencyFactor = calculateEfficiencyFactor(latitude);
+                    double energyOutput = panelArea * sunIntensity * (panelEfficiency / 100) * efficiencyFactor;
+
+                    // Display results
+                    System.out.println("\n========================================");
+                    System.out.println("        SOLAR EFFICIENCY REPORT");
+                    System.out.println("========================================");
+                    System.out.printf("Estimated Annual Energy Output: %.2f kWh/year\n", energyOutput * 365);
+                    System.out.printf("Average Sunlight Hours per Day: %.2f hours\n", sunlightHours);
+                    System.out.printf("Efficiency Factor (Latitude-based): %.2f\n", efficiencyFactor);
+                    System.out.println("========================================\n");
+                } else {
+                    System.out.println("District not found in database.");
+                }
