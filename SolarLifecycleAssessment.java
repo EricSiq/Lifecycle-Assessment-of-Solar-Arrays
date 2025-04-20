@@ -39,7 +39,7 @@ public class SolarLifecycleAssessment {
                 System.out.println("State: " + rs.getString("state_name"));
                 System.out.println("Panel Lifespan: " + rs.getInt("panel_lifespan") + " years");
                 System.out.println("Degradation Rate: " + rs.getFloat("degradation_rate") + "% per year");
-                System.out.println("Maintenance Cost: $" + rs.getFloat("maintenance_cost") + "/year");
+                System.out.println("Maintenance Cost: Rs." + rs.getFloat("maintenance_cost") + "/year");
                 System.out.println("--------------------------------------");
             }
 
