@@ -18,3 +18,32 @@ public class PowerPurchaseAgreement {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter state name: ");
         String stateName = scanner.nextLine().trim();
+//Eric
+
+
+
+        //Eric
+                while (rs.next()) {
+                    System.out.println("\nState: " + rs.getString("state_name"));
+                    System.out.println("Tariff: $" + rs.getFloat("tariff"));
+                    System.out.println("Escalation Rate: " + rs.getFloat("escalation_rate") + "%");
+                    System.out.println("Contract Duration: " + rs.getInt("contract_duration") + " years");
+                    System.out.println("--------------------------------------");
+                }
+
+            } catch (SQLException e) {
+                System.err.println("Database Error: " + e.getMessage());
+                e.printStackTrace();
+            }
+        };
+
+        // Start the thread
+        Thread ppaThread = new Thread(fetchPPAData);
+        ppaThread.start();
+
+        try {
+            ppaThread.join(); // Wait for thread to complete
+        } catch (InterruptedException e) {
+            System.err.println("Thread interrupted: " + e.getMessage());
+        }
+    }//Eric
