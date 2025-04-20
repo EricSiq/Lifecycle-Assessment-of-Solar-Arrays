@@ -59,3 +59,14 @@ public class SolarEfficiencyCalculator {
                 } else {
                     System.out.println("District not found in database.");
                 }
+                }
+            } catch (SQLException e) {
+            System.err.println("Database Error: " + e.getMessage());
+            e.printStackTrace();
+            }
+        }
+
+        // Function to adjust efficiency based on latitude
+        private static double calculateEfficiencyFactor(double latitude) {
+            return Math.cos(Math.toRadians(latitude - 23.5)) * 0.9 + 0.1; // Adjusted for better accuracy
+        }
