@@ -12,3 +12,28 @@ A Java-based application that estimates solar panel installation costs, efficien
 - Power Purchase Agreement (PPA): Models and calculates financial benefits of PPAs for solar projects.
 - Exception Handling: Includes custom exceptions for invalid geographic and state data (e.g., latitude/longitude out of range, unsupported states).
 - Dynamic Data Interaction: Integrates with MySQL database to store and retrieve project and user-specific solar data.
+
+## Project Structure
+
+### Java Files
+- Main.java – Entry point for the application.
+- DatabaseHelper.java – Manages JDBC connectivity and SQL queries.
+- SolarCostCalculator.java – Handles solar installation cost calculations and updates UserSelectedPanel table.
+- SolarEfficiencyCalculator.java – Computes efficiency metrics for selected panels.
+- SolarLifecycleAssessment.java – Performs lifecycle impact analysis.
+- PowerPurchaseAgreement.java – Manages PPA-related data and calculations.
+- StateSubsidy.java, SubsidyWorker.java – Manage state subsidy data and logic.
+- InvalidStateException.java, LatitudeOutOfRange.java, LongitudeOutOfRange.java – Custom exception classes for input validation.
+
+### Database
+- PIJ_Project_Database with the following tables:
+- StateSubsidies
+- Projects
+- PowerPurchaseAgreements
+- SolarPanelData
+- SolarPanelModels
+- SolarIntensity (populated via CSV import)
+- UserSelectedPanel (populated dynamically from the application)
+
+### Connector
+- mysql-connector-j-9.2.0.jar – JDBC driver for MySQL connectivity.
