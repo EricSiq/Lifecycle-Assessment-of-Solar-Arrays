@@ -31,3 +31,16 @@ public class SolarEfficiencyCalculator {
                         System.out.println(e.getMessage());
                         return; // Exit if latitude/longitude is out of range
                     }
+                    
+                    double sunIntensity = rs.getDouble("avg_annual_solar_radiation");
+                    double sunlightHours = DatabaseHelper.getSunlightHours(stateName, districtName);
+
+                    // Fetch solar panel efficiency and total panel area from database
+                    double[] panelData = getLatestPanelData();
+                    double panelEfficiency = panelData[0];
+                    double panelArea = panelData[1];
+
+                    if (panelEfficiency <= 0 || panelArea <= 0) {
+                        System.out.println("No panel data found. Please run SolarCostCalculator first.");
+                        return;
+                    }
