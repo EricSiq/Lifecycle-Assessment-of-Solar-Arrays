@@ -10,9 +10,11 @@ public class SolarEfficiencyCalculator {
         String stateName = scanner.nextLine().trim();
         System.out.print("Enter district name: ");
         String districtName = scanner.nextLine().trim();
+                    //Eric
 
-
-double sunIntensity = rs.getDouble("avg_annual_solar_radiation");
+        
+        //Eric
+                    double sunIntensity = rs.getDouble("avg_annual_solar_radiation");
                     double sunlightHours = DatabaseHelper.getSunlightHours(stateName, districtName);
 
                     // Fetch solar panel efficiency and total panel area from database
@@ -23,10 +25,8 @@ double sunIntensity = rs.getDouble("avg_annual_solar_radiation");
                     if (panelEfficiency <= 0 || panelArea <= 0) {
                         System.out.println("No panel data found. Please run SolarCostCalculator first.");
                         return;
-                    }//Eric
+                    }
 
-        
-        //Eric
                         // Calculate efficiency
                         double efficiencyFactor = calculateEfficiencyFactor(latitude);
                         double energyOutput = panelArea * sunIntensity * (panelEfficiency / 100) * efficiencyFactor;
@@ -43,7 +43,6 @@ double sunIntensity = rs.getDouble("avg_annual_solar_radiation");
                         System.out.println("District not found in database.");
                     }
                 }
-//Eric
 
 
 
