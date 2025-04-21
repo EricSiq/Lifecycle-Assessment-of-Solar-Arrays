@@ -109,7 +109,7 @@ public class SolarCostCalculator {
             double electricityPrice = 6.50; // Rs. per kWh
 
             double annualSavings = annualEnergyOutput * electricityPrice;
-            annualSavings *= 1.10; // 10% extra savings due to net metering
+            annualSavings *= 1.04; // 4% extra savings due to net metering
 
             double lifetimeSavings = annualSavings * panelLifespan;
             double paybackPeriod = finalCost / annualSavings;
@@ -132,7 +132,7 @@ public class SolarCostCalculator {
             System.out.printf("Estimated Annual Energy Output: %.2f kWh\n", annualEnergyOutput);
             System.out.printf("Estimated Annual Savings (Without Net Metering): Rs. %.2f\n", annualSavings / 1.10);
             if (netMetering) {
-                System.out.println("Net Metering Benefits Applied: 10% Extra Savings");
+                System.out.println("Net Metering Benefits Applied: 4% Extra Savings");
             }
             System.out.printf("Estimated Lifetime Energy Savings: Rs. %.2f\n", lifetimeSavings);
             System.out.printf("Return on Investment (ROI): %.2f%%\n", roi);
