@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // Create a single scanner instance
+        Scanner scanner = new Scanner(System.in); // Creates a single scanner instance
         while (true) {
             System.out.println("\n========== SOLAR ENERGY ANALYSIS MENU ==========");
             System.out.println("1. Power Purchase Agreement Details");
@@ -27,10 +27,10 @@ public class Main {
                     SolarEfficiencyCalculator.main(null);
                     break;
                 case 4:
-                    SolarLifecycleAssessment.run(scanner); // Pass scanner here
+                    SolarLifecycleAssessment.run(scanner); 
                     break;
                 case 5:
-                    StateSubsidy.run(scanner); // Pass scanner here
+                    StateSubsidy.run(scanner); 
                     break;
                 case 0:
                     System.out.println("Exiting... Thank you!");
