@@ -45,19 +45,20 @@ A Java-based application that estimates solar panel installation costs, efficien
 - MySQL Connector/J for JDBC-based database communication
 
 ## How to Run the Project
-1. Setup Database
+1. Clone the repository: git clone https://github.com/EricSiq/JavaProject-Lifecycle-Assessment-of-Solar-Arrays.git
+   
+2. Setup Database
 - Open MySQL Workbench.
-- Create a new schema PIJ_Project_Database.
-- Create the 7 required tables.
+- Run the provided schema PIJ_Project_Database.
+- Create the 7 required tables in the provided schema.
 - Use the Table Data Import Wizard to populate SolarIntensity with solar_intensity_india.csv.
-- Insert sample data into other tables via SQL INSERT statements.
+- Insert given data into other tables via SQL INSERT statements.
 
-2. Configure JDBC
+3. Configure JDBC
 - Add mysql-connector-j-9.2.0.jar to your project's classpath.
 
-3. Run Application
-- Clone the repository: https://github.com/EricSiq/JavaProject-Lifecycle-Assessment-of-Solar-Arrays.git
-- Navigate to the project directory: cd JavaProject-Lifecycle-Assessment-of-Solar-Arrays.git
+4. Run Application
+- Navigate to the project directory: cd JavaProject-Lifecycle-Assessment-of-Solar-Arrays
 - Compile the Java files: javac *.java
 - Run the program: java -cp ".;mysql-connector-j-9.2.0.jar" Main 
 
