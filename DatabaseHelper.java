@@ -2,8 +2,8 @@ import java.sql.*;
 
 public class DatabaseHelper {
     private static final String URL = "jdbc:mysql://localhost:3306/PIJ_Project_Database";
-    private static final String USER = "root";
-    private static final String PASSWORD = "XlR8#2137";
+    private static final String USER = "username";
+    private static final String PASSWORD = "password";
 
     static {
         try {
