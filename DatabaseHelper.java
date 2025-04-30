@@ -76,9 +76,9 @@ public class DatabaseHelper {
         }
         return result;
     }
-}
-
-    
+	
+	
+	    
 public static void addStateSubsidy(String stateName, float subsidyPercent) {
     String query = "INSERT INTO StateSubsidies (state_name, subsidy_percent) VALUES (?, ?)";
     try (Connection con = getConnection();
@@ -437,5 +437,8 @@ public static void deleteUserSelectedPanel(int id) {
         e.printStackTrace();
     }
 }
+}
+
+
 
 
