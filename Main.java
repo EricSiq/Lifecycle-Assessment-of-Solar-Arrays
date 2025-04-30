@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    private static final String ADMIN_PASSWORD = "admin123"; // Set your admin password
+    private static final String ADMIN_PASSWORD = "admin_password"; // Set your admin password
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
